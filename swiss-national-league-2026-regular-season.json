@@ -1,0 +1,2920 @@
+{
+  "league": "Swiss National League",
+  "season_label": "Regular Season (2026)",
+  "source_file": "SIHF-Calendar Regular Season (2026)(1)(1).ics",
+  "total_games": 364,
+  "games": [
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Ambri-Piotta vs EHC Kloten",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Davos vs Lausanne HC",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Lugano",
+      "matchup": "Fribourg-Gottéron vs HC Lugano",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Ajoie",
+      "matchup": "Genève-Servette HC vs HC Ajoie",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "SCL Tigers",
+      "matchup": "SC Rapperswil-Jona Lakers vs SCL Tigers",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "ZSC Lions vs EHC Biel-Bienne",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-09-09",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SC Bern",
+      "matchup": "EV Zug vs SC Bern",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-11",
+      "time": "20:00",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Davos",
+      "matchup": "EHC Biel-Bienne vs HC Davos",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Ajoie vs ZSC Lions",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SC Bern vs Genève-Servette HC",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EHC Kloten vs SC Rapperswil-Jona Lakers",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "EV Zug",
+      "matchup": "HC Lugano vs EV Zug",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "Lausanne HC vs Fribourg-Gottéron",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-09-12",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SCL Tigers vs HC Ambri-Piotta",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Ambri-Piotta vs Lausanne HC",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Fribourg-Gottéron vs EHC Biel-Bienne",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EHC Kloten",
+      "matchup": "Genève-Servette HC vs EHC Kloten",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "SC Bern",
+      "matchup": "SC Rapperswil-Jona Lakers vs SC Bern",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Lugano",
+      "matchup": "ZSC Lions vs HC Lugano",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-09-13",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SCL Tigers",
+      "matchup": "EV Zug vs SCL Tigers",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-14",
+      "time": "15:45",
+      "home_team": "HC Davos",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Davos vs HC Ajoie",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Ajoie vs SC Rapperswil-Jona Lakers",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SC Bern vs HC Ambri-Piotta",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Lugano",
+      "matchup": "EHC Biel-Bienne vs HC Lugano",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Davos vs EHC Kloten",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "Genève-Servette HC",
+      "matchup": "Lausanne HC vs Genève-Servette HC",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "ZSC Lions",
+      "matchup": "SCL Tigers vs ZSC Lions",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-09-16",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EV Zug vs Fribourg-Gottéron",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-18",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "Genève-Servette HC vs Fribourg-Gottéron",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-09-19",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Ambri-Piotta vs ZSC Lions",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-09-19",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "EV Zug",
+      "matchup": "EHC Kloten vs EV Zug",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-09-19",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Lugano vs HC Ajoie",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-09-19",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Lausanne HC",
+      "matchup": "SC Rapperswil-Jona Lakers vs Lausanne HC",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-19",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Davos",
+      "matchup": "SCL Tigers vs HC Davos",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EHC Biel-Bienne vs HC Ambri-Piotta",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "HC Lugano",
+      "matchup": "HC Davos vs HC Lugano",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SCL Tigers",
+      "matchup": "Fribourg-Gottéron vs SCL Tigers",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EHC Kloten",
+      "matchup": "Lausanne HC vs EHC Kloten",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Genève-Servette HC",
+      "matchup": "ZSC Lions vs Genève-Servette HC",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EV Zug vs SC Rapperswil-Jona Lakers",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-20",
+      "time": "19:50",
+      "home_team": "HC Ajoie",
+      "away_team": "SC Bern",
+      "matchup": "HC Ajoie vs SC Bern",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "ZSC Lions",
+      "matchup": "Fribourg-Gottéron vs ZSC Lions",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Genève-Servette HC vs HC Ambri-Piotta",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Ajoie",
+      "matchup": "EHC Kloten vs HC Ajoie",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "SC Bern",
+      "matchup": "HC Lugano vs SC Bern",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "SCL Tigers",
+      "matchup": "Lausanne HC vs SCL Tigers",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SC Rapperswil-Jona Lakers vs EHC Biel-Bienne",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-23",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Davos",
+      "matchup": "EV Zug vs HC Davos",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Ajoie vs Fribourg-Gottéron",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EV Zug",
+      "matchup": "HC Ambri-Piotta vs EV Zug",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EHC Kloten",
+      "matchup": "SC Bern vs EHC Kloten",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Genève-Servette HC vs SC Rapperswil-Jona Lakers",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Lugano vs Lausanne HC",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SCL Tigers vs EHC Biel-Bienne",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-09-26",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Davos",
+      "matchup": "ZSC Lions vs HC Davos",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Ajoie",
+      "matchup": "EHC Biel-Bienne vs HC Ajoie",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Davos vs Genève-Servette HC",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Fribourg-Gottéron vs HC Ambri-Piotta",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SCL Tigers",
+      "matchup": "EHC Kloten vs SCL Tigers",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Lugano",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Lugano",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-27",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "ZSC Lions",
+      "matchup": "EV Zug vs ZSC Lions",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-09-28",
+      "time": "14:00",
+      "home_team": "Lausanne HC",
+      "away_team": "SC Bern",
+      "matchup": "Lausanne HC vs SC Bern",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Ajoie vs Lausanne HC",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SC Bern vs Fribourg-Gottéron",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "EV Zug",
+      "matchup": "EHC Biel-Bienne vs EV Zug",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Lugano vs HC Ambri-Piotta",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Davos",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Davos",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SCL Tigers vs Genève-Servette HC",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-09-30",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EHC Kloten",
+      "matchup": "ZSC Lions vs EHC Kloten",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-01",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EHC Kloten",
+      "matchup": "Lausanne HC vs EHC Kloten",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Fribourg-Gottéron vs SC Rapperswil-Jona Lakers",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Lugano",
+      "matchup": "Genève-Servette HC vs HC Lugano",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "EHC Kloten vs EHC Biel-Bienne",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Ajoie",
+      "matchup": "SCL Tigers vs HC Ajoie",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SC Bern",
+      "matchup": "ZSC Lions vs SC Bern",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-03",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Lausanne HC",
+      "matchup": "EV Zug vs Lausanne HC",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-10-04",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EV Zug",
+      "matchup": "HC Ajoie vs EV Zug",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-04",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "SCL Tigers",
+      "matchup": "SC Bern vs SCL Tigers",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-10-04",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Davos vs Fribourg-Gottéron",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-10-04",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "ZSC Lions",
+      "matchup": "Lausanne HC vs ZSC Lions",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-04",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Ambri-Piotta",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-10-05",
+      "time": "14:00",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EHC Biel-Bienne vs Genève-Servette HC",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-05",
+      "time": "14:00",
+      "home_team": "HC Lugano",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Lugano vs EHC Kloten",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-10-05",
+      "time": "15:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Davos",
+      "matchup": "HC Ambri-Piotta vs HC Davos",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-09",
+      "time": "20:00",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EHC Kloten",
+      "matchup": "Fribourg-Gottéron vs EHC Kloten",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-10-10",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Ambri-Piotta vs HC Ajoie",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-10",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Lugano vs SCL Tigers",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-10-10",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Lausanne HC vs EHC Biel-Bienne",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-10",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "ZSC Lions",
+      "matchup": "SC Rapperswil-Jona Lakers vs ZSC Lions",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-10-10",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EV Zug vs Genève-Servette HC",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-10-11",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EV Zug",
+      "matchup": "SC Bern vs EV Zug",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-10-11",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EHC Biel-Bienne vs Fribourg-Gottéron",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-11",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Davos",
+      "matchup": "EHC Kloten vs HC Davos",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-11",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "SCL Tigers vs SC Rapperswil-Jona Lakers",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-10-11",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "ZSC Lions vs HC Ambri-Piotta",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-12",
+      "time": "14:00",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Lugano",
+      "matchup": "HC Ajoie vs HC Lugano",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-12",
+      "time": "14:01",
+      "home_team": "Genève-Servette HC",
+      "away_team": "Lausanne HC",
+      "matchup": "Genève-Servette HC vs Lausanne HC",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-12",
+      "time": "15:45",
+      "home_team": "HC Davos",
+      "away_team": "SC Bern",
+      "matchup": "HC Davos vs SC Bern",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-10-16",
+      "time": "20:00",
+      "home_team": "HC Lugano",
+      "away_team": "HC Davos",
+      "matchup": "HC Lugano vs HC Davos",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Ajoie vs EHC Kloten",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Ambri-Piotta vs SCL Tigers",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Lausanne HC",
+      "matchup": "SC Bern vs Lausanne HC",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EHC Biel-Bienne vs SC Rapperswil-Jona Lakers",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "Genève-Servette HC",
+      "matchup": "Fribourg-Gottéron vs Genève-Servette HC",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-10-17",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EV Zug",
+      "matchup": "ZSC Lions vs EV Zug",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-18",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Davos vs ZSC Lions",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-10-18",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SC Bern",
+      "matchup": "Genève-Servette HC vs SC Bern",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-18",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EHC Kloten vs HC Ambri-Piotta",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-18",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Lugano",
+      "matchup": "Lausanne HC vs HC Lugano",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-18",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SCL Tigers vs Fribourg-Gottéron",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-10-19",
+      "time": "14:00",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Ajoie",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Ajoie",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-10-19",
+      "time": "14:00",
+      "home_team": "EV Zug",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "EV Zug vs EHC Biel-Bienne",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Ajoie vs SCL Tigers",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SC Bern",
+      "matchup": "HC Ambri-Piotta vs SC Bern",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Davos vs EHC Biel-Bienne",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EV Zug",
+      "matchup": "Fribourg-Gottéron vs EV Zug",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EHC Kloten vs Genève-Servette HC",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Lugano vs ZSC Lions",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-10-21",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Lausanne HC vs SC Rapperswil-Jona Lakers",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-23",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Ajoie",
+      "matchup": "EV Zug vs HC Ajoie",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Davos",
+      "matchup": "HC Ajoie vs HC Davos",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Lugano",
+      "matchup": "SC Bern vs HC Lugano",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "EHC Kloten",
+      "matchup": "EHC Biel-Bienne vs EHC Kloten",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EV Zug",
+      "matchup": "SC Rapperswil-Jona Lakers vs EV Zug",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Lausanne HC",
+      "matchup": "SCL Tigers vs Lausanne HC",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "ZSC Lions vs Fribourg-Gottéron",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-24",
+      "time": "20:20",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Ambri-Piotta vs Genève-Servette HC",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Davos vs SCL Tigers",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SC Bern",
+      "matchup": "Fribourg-Gottéron vs SC Bern",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Genève-Servette HC vs EHC Biel-Bienne",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "ZSC Lions",
+      "matchup": "EHC Kloten vs ZSC Lions",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Lugano vs SC Rapperswil-Jona Lakers",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-10-25",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Lausanne HC vs HC Ambri-Piotta",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Lugano",
+      "matchup": "HC Ambri-Piotta vs HC Lugano",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Ajoie",
+      "matchup": "SC Bern vs HC Ajoie",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Lausanne HC",
+      "matchup": "EHC Biel-Bienne vs Lausanne HC",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Davos",
+      "matchup": "Genève-Servette HC vs HC Davos",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EHC Kloten vs Fribourg-Gottéron",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EV Zug",
+      "matchup": "SCL Tigers vs EV Zug",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-10-28",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "ZSC Lions vs SC Rapperswil-Jona Lakers",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-10-29",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Davos",
+      "matchup": "Lausanne HC vs HC Davos",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-10-30",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EV Zug",
+      "matchup": "Genève-Servette HC vs EV Zug",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-10-31",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Ajoie vs HC Ambri-Piotta",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-10-31",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SC Bern",
+      "matchup": "EHC Biel-Bienne vs SC Bern",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-10-31",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SC Rapperswil-Jona Lakers vs Fribourg-Gottéron",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-10-31",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SCL Tigers",
+      "matchup": "ZSC Lions vs SCL Tigers",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-11-01",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Lugano vs Genève-Servette HC",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-11-01",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Ambri-Piotta vs EHC Biel-Bienne",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-11-01",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "ZSC Lions",
+      "matchup": "SC Bern vs ZSC Lions",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-11-01",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Davos vs SC Rapperswil-Jona Lakers",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-11-01",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Lausanne HC",
+      "matchup": "EHC Kloten vs Lausanne HC",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-11-12",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Ajoie",
+      "matchup": "Fribourg-Gottéron vs HC Ajoie",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-11-12",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Lugano",
+      "matchup": "SCL Tigers vs HC Lugano",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-11-13",
+      "time": "20:00",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SCL Tigers",
+      "matchup": "Genève-Servette HC vs SCL Tigers",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "SC Bern vs SC Rapperswil-Jona Lakers",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "ZSC Lions",
+      "matchup": "EHC Biel-Bienne vs ZSC Lions",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Davos",
+      "matchup": "Fribourg-Gottéron vs HC Davos",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Lugano",
+      "matchup": "EHC Kloten vs HC Lugano",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Ajoie",
+      "matchup": "Lausanne HC vs HC Ajoie",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-11-14",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EV Zug vs HC Ambri-Piotta",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-11-15",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Ajoie vs Genève-Servette HC",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-11-15",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Ambri-Piotta vs Fribourg-Gottéron",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-11-15",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Lugano vs EHC Biel-Bienne",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-11-15",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EHC Kloten",
+      "matchup": "SC Rapperswil-Jona Lakers vs EHC Kloten",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-11-15",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "SC Bern",
+      "matchup": "SCL Tigers vs SC Bern",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-11-16",
+      "time": "15:45",
+      "home_team": "HC Davos",
+      "away_team": "EV Zug",
+      "matchup": "HC Davos vs EV Zug",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-11-16",
+      "time": "15:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Lausanne HC",
+      "matchup": "ZSC Lions vs Lausanne HC",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-11-19",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Ajoie vs EHC Biel-Bienne",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-11-20",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Lugano vs Fribourg-Gottéron",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-11-20",
+      "time": "20:00",
+      "home_team": "HC Davos",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Davos vs HC Ambri-Piotta",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SCL Tigers",
+      "matchup": "EHC Biel-Bienne vs SCL Tigers",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "Lausanne HC",
+      "matchup": "Fribourg-Gottéron vs Lausanne HC",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SC Bern",
+      "matchup": "EHC Kloten vs SC Bern",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SC Rapperswil-Jona Lakers vs Genève-Servette HC",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Ajoie",
+      "matchup": "ZSC Lions vs HC Ajoie",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-11-21",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Lugano",
+      "matchup": "EV Zug vs HC Lugano",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-11-22",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Ambri-Piotta vs SC Rapperswil-Jona Lakers",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-11-22",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Davos",
+      "matchup": "SC Bern vs HC Davos",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-11-22",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "ZSC Lions",
+      "matchup": "Genève-Servette HC vs ZSC Lions",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-11-22",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EV Zug",
+      "matchup": "Lausanne HC vs EV Zug",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-11-22",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EHC Kloten",
+      "matchup": "SCL Tigers vs EHC Kloten",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "EHC Kloten",
+      "matchup": "EHC Biel-Bienne vs EHC Kloten",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "Genève-Servette HC",
+      "matchup": "Fribourg-Gottéron vs Genève-Servette HC",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Lausanne HC",
+      "matchup": "SC Rapperswil-Jona Lakers vs Lausanne HC",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "ZSC Lions vs HC Ambri-Piotta",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SC Bern",
+      "matchup": "EV Zug vs SC Bern",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-11-25",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Davos vs HC Ajoie",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-11-26",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "SCL Tigers",
+      "matchup": "Lausanne HC vs SCL Tigers",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-11-27",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EV Zug vs Genève-Servette HC",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-11-28",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "ZSC Lions",
+      "matchup": "SC Bern vs ZSC Lions",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-11-28",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EHC Biel-Bienne vs Fribourg-Gottéron",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-11-28",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Davos vs SC Rapperswil-Jona Lakers",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-11-28",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Ajoie",
+      "matchup": "EHC Kloten vs HC Ajoie",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-11-28",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Lugano vs HC Ambri-Piotta",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-11-29",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EV Zug",
+      "matchup": "HC Ajoie vs EV Zug",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-11-29",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Ambri-Piotta vs EHC Biel-Bienne",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-11-29",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SC Bern",
+      "matchup": "Fribourg-Gottéron vs SC Bern",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-11-29",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Davos",
+      "matchup": "Genève-Servette HC vs HC Davos",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-11-29",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SCL Tigers",
+      "matchup": "ZSC Lions vs SCL Tigers",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-11-30",
+      "time": "15:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Lausanne HC",
+      "matchup": "SCL Tigers vs Lausanne HC",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-11-30",
+      "time": "15:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Lugano",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Lugano",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-12-03",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SC Bern vs EHC Biel-Bienne",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-12-03",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Fribourg-Gottéron vs SC Rapperswil-Jona Lakers",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-12-03",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Davos vs Genève-Servette HC",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-12-04",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Ambri-Piotta vs Genève-Servette HC",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-12-05",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Ajoie vs Fribourg-Gottéron",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-12-05",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Davos vs ZSC Lions",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-12-05",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Lugano vs EHC Kloten",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-12-05",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SC Rapperswil-Jona Lakers vs EHC Biel-Bienne",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-12-05",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EV Zug",
+      "matchup": "SCL Tigers vs EV Zug",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-12-06",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "SCL Tigers",
+      "matchup": "SC Bern vs SCL Tigers",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-12-06",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Lausanne HC",
+      "matchup": "EHC Biel-Bienne vs Lausanne HC",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-12-06",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Ajoie",
+      "matchup": "Genève-Servette HC vs HC Ajoie",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-12-07",
+      "time": "14:00",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Davos",
+      "matchup": "Fribourg-Gottéron vs HC Davos",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-12-07",
+      "time": "14:00",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EHC Kloten vs HC Ambri-Piotta",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-12-07",
+      "time": "15:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "ZSC Lions vs SC Rapperswil-Jona Lakers",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-12-07",
+      "time": "15:45",
+      "home_team": "HC Lugano",
+      "away_team": "SC Bern",
+      "matchup": "HC Lugano vs SC Bern",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-12-17",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "EHC Kloten",
+      "matchup": "EV Zug vs EHC Kloten",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-12-17",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Lugano",
+      "matchup": "ZSC Lions vs HC Lugano",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-12-17",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Ajoie",
+      "matchup": "Fribourg-Gottéron vs HC Ajoie",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Ajoie vs Lausanne HC",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Ambri-Piotta vs Fribourg-Gottéron",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Davos",
+      "matchup": "SC Bern vs HC Davos",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SCL Tigers",
+      "matchup": "Genève-Servette HC vs SCL Tigers",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EHC Kloten vs SC Rapperswil-Jona Lakers",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-12-19",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "EV Zug vs EHC Biel-Bienne",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "HC Lugano",
+      "matchup": "HC Davos vs HC Lugano",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "ZSC Lions",
+      "matchup": "Fribourg-Gottéron vs ZSC Lions",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Lausanne HC vs HC Ambri-Piotta",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EV Zug",
+      "matchup": "SC Rapperswil-Jona Lakers vs EV Zug",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EHC Kloten",
+      "matchup": "SCL Tigers vs EHC Kloten",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-12-20",
+      "time": "20:00",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EHC Biel-Bienne vs Genève-Servette HC",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2025-12-22",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "SC Bern",
+      "matchup": "Lausanne HC vs SC Bern",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2025-12-22",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Lugano vs HC Ajoie",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Ajoie",
+      "matchup": "HC Ambri-Piotta vs HC Ajoie",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "SC Bern vs SC Rapperswil-Jona Lakers",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "Lausanne HC",
+      "matchup": "Genève-Servette HC vs Lausanne HC",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EHC Kloten vs Fribourg-Gottéron",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Lugano",
+      "matchup": "SCL Tigers vs HC Lugano",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "ZSC Lions vs EHC Biel-Bienne",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2025-12-23",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Davos",
+      "matchup": "EV Zug vs HC Davos",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "14:00",
+      "home_team": "HC Ajoie",
+      "away_team": "SC Bern",
+      "matchup": "HC Ajoie vs SC Bern",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "14:02",
+      "home_team": "Genève-Servette HC",
+      "away_team": "ZSC Lions",
+      "matchup": "Genève-Servette HC vs ZSC Lions",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "15:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EV Zug",
+      "matchup": "Lausanne HC vs EV Zug",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Ambri-Piotta vs SCL Tigers",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Lugano",
+      "matchup": "EHC Biel-Bienne vs HC Lugano",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Davos",
+      "matchup": "EHC Kloten vs HC Davos",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SC Bern vs Genève-Servette HC",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Davos vs HC Ambri-Piotta",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Lugano vs Fribourg-Gottéron",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Ajoie",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Ajoie",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SCL Tigers vs EHC Biel-Bienne",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Lausanne HC",
+      "matchup": "ZSC Lions vs Lausanne HC",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-01-03",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "EHC Kloten",
+      "matchup": "EV Zug vs EHC Kloten",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Ajoie vs ZSC Lions",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EV Zug",
+      "matchup": "HC Ambri-Piotta vs EV Zug",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Davos",
+      "matchup": "EHC Biel-Bienne vs HC Davos",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "SCL Tigers",
+      "matchup": "Fribourg-Gottéron vs SCL Tigers",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Genève-Servette HC vs SC Rapperswil-Jona Lakers",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-06",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SC Bern",
+      "matchup": "EHC Kloten vs SC Bern",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-07",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Lugano",
+      "matchup": "Lausanne HC vs HC Lugano",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-08",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EV Zug",
+      "matchup": "Fribourg-Gottéron vs EV Zug",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-08",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Lugano",
+      "matchup": "Genève-Servette HC vs HC Lugano",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-08",
+      "time": "20:00",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "SCL Tigers",
+      "matchup": "SC Rapperswil-Jona Lakers vs SCL Tigers",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-01-09",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Ajoie vs EHC Biel-Bienne",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-09",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SC Bern vs HC Ambri-Piotta",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-01-09",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Davos vs Lausanne HC",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Ambri-Piotta vs SC Rapperswil-Jona Lakers",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SC Bern",
+      "matchup": "EHC Biel-Bienne vs SC Bern",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Genève-Servette HC",
+      "matchup": "EHC Kloten vs Genève-Servette HC",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "Lausanne HC vs Fribourg-Gottéron",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Davos",
+      "matchup": "SCL Tigers vs HC Davos",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-01-10",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "ZSC Lions",
+      "matchup": "EV Zug vs ZSC Lions",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-11",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EHC Kloten",
+      "matchup": "ZSC Lions vs EHC Kloten",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-01-14",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Ajoie vs SCL Tigers",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-14",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Lugano",
+      "matchup": "EV Zug vs HC Lugano",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-14",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "Genève-Servette HC",
+      "matchup": "Lausanne HC vs Genève-Servette HC",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-15",
+      "time": "20:00",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EHC Biel-Bienne vs HC Ambri-Piotta",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "HC Lugano",
+      "matchup": "SC Bern vs HC Lugano",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "Lausanne HC",
+      "matchup": "EHC Kloten vs Lausanne HC",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "ZSC Lions",
+      "matchup": "SC Rapperswil-Jona Lakers vs ZSC Lions",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SCL Tigers vs Genève-Servette HC",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-01-16",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Ajoie",
+      "matchup": "EV Zug vs HC Ajoie",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-17",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Davos",
+      "matchup": "HC Ajoie vs HC Davos",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-17",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Ambri-Piotta vs EHC Kloten",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-17",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Fribourg-Gottéron vs EHC Biel-Bienne",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-17",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EV Zug",
+      "matchup": "Genève-Servette HC vs EV Zug",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-17",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "SC Bern",
+      "matchup": "ZSC Lions vs SC Bern",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "15:45",
+      "home_team": "HC Lugano",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Lugano vs SCL Tigers",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "15:45",
+      "home_team": "Lausanne HC",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "Lausanne HC vs SC Rapperswil-Jona Lakers",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Ambri-Piotta vs ZSC Lions",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Lugano",
+      "matchup": "Fribourg-Gottéron vs HC Lugano",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "EV Zug",
+      "matchup": "EHC Kloten vs EV Zug",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Lausanne HC vs EHC Biel-Bienne",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "SC Bern",
+      "matchup": "SC Rapperswil-Jona Lakers vs SC Bern",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-01-23",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Ajoie",
+      "matchup": "SCL Tigers vs HC Ajoie",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Ajoie vs EHC Kloten",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Lausanne HC",
+      "matchup": "SC Bern vs Lausanne HC",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EHC Biel-Bienne vs SC Rapperswil-Jona Lakers",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "HC Davos",
+      "matchup": "HC Lugano vs HC Davos",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "ZSC Lions vs Fribourg-Gottéron",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-01-24",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SCL Tigers",
+      "matchup": "EV Zug vs SCL Tigers",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-26",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Genève-Servette HC vs HC Ambri-Piotta",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "HC Ajoie",
+      "matchup": "EHC Biel-Bienne vs HC Ajoie",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "EV Zug",
+      "matchup": "HC Davos vs EV Zug",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "Fribourg-Gottéron vs HC Ambri-Piotta",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "ZSC Lions",
+      "matchup": "EHC Kloten vs ZSC Lions",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Lugano vs SC Rapperswil-Jona Lakers",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-01-27",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "SC Bern",
+      "matchup": "SCL Tigers vs SC Bern",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Lugano",
+      "matchup": "HC Ambri-Piotta vs HC Lugano",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "Genève-Servette HC vs Fribourg-Gottéron",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Davos",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Davos",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "ZSC Lions",
+      "matchup": "EHC Biel-Bienne vs ZSC Lions",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "SC Bern",
+      "matchup": "HC Davos vs SC Bern",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "EHC Kloten",
+      "matchup": "Fribourg-Gottéron vs EHC Kloten",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Lausanne HC",
+      "matchup": "EV Zug vs Lausanne HC",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "19:50",
+      "home_team": "HC Ajoie",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "HC Ajoie vs SC Rapperswil-Jona Lakers",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "EV Zug",
+      "matchup": "ZSC Lions vs EV Zug",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Lugano vs Genève-Servette HC",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SCL Tigers vs HC Ambri-Piotta",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "14:00",
+      "home_team": "SC Bern",
+      "away_team": "HC Ajoie",
+      "matchup": "SC Bern vs HC Ajoie",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "14:00",
+      "home_team": "EHC Kloten",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "EHC Kloten vs EHC Biel-Bienne",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "15:45",
+      "home_team": "HC Davos",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "HC Davos vs Fribourg-Gottéron",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Ambri-Piotta vs Lausanne HC",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EHC Kloten",
+      "matchup": "SC Bern vs EHC Kloten",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "SCL Tigers",
+      "matchup": "HC Davos vs SCL Tigers",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Lugano vs EHC Biel-Bienne",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Genève-Servette HC",
+      "matchup": "SC Rapperswil-Jona Lakers vs Genève-Servette HC",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Ajoie",
+      "matchup": "ZSC Lions vs HC Ajoie",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-02-24",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "EV Zug vs Fribourg-Gottéron",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Lugano",
+      "matchup": "HC Ajoie vs HC Lugano",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "HC Davos",
+      "matchup": "HC Ambri-Piotta vs HC Davos",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "EV Zug",
+      "matchup": "EHC Biel-Bienne vs EV Zug",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "SC Bern",
+      "matchup": "Genève-Servette HC vs SC Bern",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "SCL Tigers",
+      "matchup": "EHC Kloten vs SCL Tigers",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "ZSC Lions",
+      "matchup": "Lausanne HC vs ZSC Lions",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-02-27",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SC Rapperswil-Jona Lakers vs Fribourg-Gottéron",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "SC Bern vs EHC Biel-Bienne",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "EHC Kloten",
+      "matchup": "HC Davos vs EHC Kloten",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "Lausanne HC",
+      "matchup": "HC Lugano vs Lausanne HC",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "SCL Tigers vs SC Rapperswil-Jona Lakers",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "Genève-Servette HC",
+      "matchup": "ZSC Lions vs Genève-Servette HC",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-02-28",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "EV Zug vs HC Ambri-Piotta",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "HC Ajoie vs HC Ambri-Piotta",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "EV Zug",
+      "matchup": "SC Bern vs EV Zug",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "Genève-Servette HC vs EHC Biel-Bienne",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "ZSC Lions",
+      "matchup": "HC Lugano vs ZSC Lions",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Davos",
+      "matchup": "Lausanne HC vs HC Davos",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "EHC Kloten",
+      "matchup": "SC Rapperswil-Jona Lakers vs EHC Kloten",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-03-05",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SCL Tigers vs Fribourg-Gottéron",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "HC Ajoie",
+      "away_team": "Genève-Servette HC",
+      "matchup": "HC Ajoie vs Genève-Servette HC",
+      "location": "Raiffeisen Arena, 2900 Porrentruy JU"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "HC Ambri-Piotta",
+      "away_team": "SC Bern",
+      "matchup": "HC Ambri-Piotta vs SC Bern",
+      "location": "Gottardo Arena, 6775 Ambri TI"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "EHC Biel-Bienne",
+      "away_team": "SCL Tigers",
+      "matchup": "EHC Biel-Bienne vs SCL Tigers",
+      "location": "Tissot Arena, 2504 Biel/Bienne BE"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "Fribourg-Gottéron",
+      "away_team": "Lausanne HC",
+      "matchup": "Fribourg-Gottéron vs Lausanne HC",
+      "location": "BCF Arena, 1700 Fribourg FR"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "EHC Kloten",
+      "away_team": "HC Lugano",
+      "matchup": "EHC Kloten vs HC Lugano",
+      "location": "SWISS Arena, 8302 Kloten ZH"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "ZSC Lions",
+      "away_team": "HC Davos",
+      "matchup": "ZSC Lions vs HC Davos",
+      "location": "Swiss Life Arena, 8048 Zürich ZH"
+    },
+    {
+      "date": "2026-03-07",
+      "time": "19:45",
+      "home_team": "EV Zug",
+      "away_team": "SC Rapperswil-Jona Lakers",
+      "matchup": "EV Zug vs SC Rapperswil-Jona Lakers",
+      "location": "OYM hall, 6303 Zug"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "SC Bern",
+      "away_team": "Fribourg-Gottéron",
+      "matchup": "SC Bern vs Fribourg-Gottéron",
+      "location": "PostFinance Arena, 3014 Bern BE"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "HC Davos",
+      "away_team": "EHC Biel-Bienne",
+      "matchup": "HC Davos vs EHC Biel-Bienne",
+      "location": "zondacrypto-Arena, 7270 Davos-Platz GR"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "Genève-Servette HC",
+      "away_team": "EHC Kloten",
+      "matchup": "Genève-Servette HC vs EHC Kloten",
+      "location": "Les Vernets, 1227 Les Acacias GE"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "HC Lugano",
+      "away_team": "EV Zug",
+      "matchup": "HC Lugano vs EV Zug",
+      "location": "Cornèr Arena, 6948 Porza Ti"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "Lausanne HC",
+      "away_team": "HC Ajoie",
+      "matchup": "Lausanne HC vs HC Ajoie",
+      "location": "Vaudoise Aréna, 1008 Lausanne VD"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "SC Rapperswil-Jona Lakers",
+      "away_team": "HC Ambri-Piotta",
+      "matchup": "SC Rapperswil-Jona Lakers vs HC Ambri-Piotta",
+      "location": "St.Galler Kantonalbank Arena, 8640 Rapperswil SG"
+    },
+    {
+      "date": "2026-03-09",
+      "time": "19:45",
+      "home_team": "SCL Tigers",
+      "away_team": "ZSC Lions",
+      "matchup": "SCL Tigers vs ZSC Lions",
+      "location": "emmental versicherung arena , 3550 Langnau i. E. BE"
+    }
+  ]
+}
