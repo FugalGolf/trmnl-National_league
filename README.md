@@ -1,135 +1,116 @@
-# National League (Hockey) — plugin TRMNL
+# National League (Hockey) — TRMNL plugin
 
-Affiche, pour un des 14 clubs de National League suisse : le logo, la place au
-classement, le score du dernier match, et la date, l'heure et l'adversaire du
-prochain. En français, allemand, italien et anglais.
+A TRMNL plugin for Swiss National League hockey. Pick one of the 14 clubs and
+you get its logo, its position in the standings, the score of the last game, and
+when and who it plays next.
 
-Données : `https://www.nationalleague.ch/api/games`, qui renvoie toute la saison
-de NL en JSON. Le classement n'existe pas comme endpoint public, il est
-recalculé à partir des matchs terminés.
+I built this because I wanted my LHC scores on my TRMNL, and there was no plugin
+for it. Works in French, German, Italian and English.
 
-## Contenu
+## Data
 
-| Fichier | Où il va dans TRMNL |
+Everything comes from `https://www.nationalleague.ch/api/games`. It returns the
+whole NL season as JSON.
+
+There is no public endpoint for the standings, so I compute them from the
+finished games.
+
+## Files
+
+| File | Where it goes |
 | --- | --- |
-| `settings.yml` | Page de paramètres du plugin (contient déjà les champs de formulaire) |
-| `custom_fields.yml` | Le bloc Custom Fields seul, si tu le colles à la main |
-| `author_bio.yml` | Le champ `author_bio` seul, pour la publication |
-| `full.liquid` | Onglet Full |
-| `half_horizontal.liquid` | Onglet Half horizontal |
-| `half_vertical.liquid` | Onglet Half vertical |
-| `quadrant.liquid` | Onglet Quadrant |
-| `serverless.js` | Onglet Serverless, langage **Node** |
-| `trmnl-national-league.zip` | Import direct : `settings.yml` + les quatre `.liquid` |
+| `trmnl-national-league.zip` | Import this in TRMNL (settings + the 4 layouts) |
+| `serverless.js` | Serverless tab, language set to **Node** |
+| `settings.yml` | Plugin settings, form fields included |
+| `custom_fields.yml` | Just the Custom Fields block if you paste it by hand |
+| `author_bio.yml` | Just the author_bio field |
+| `*.liquid` | One file per layout tab |
 
-Le ZIP ne contient que ce que l'importateur de TRMNL accepte. `serverless.js`
-se colle à part.
+The zip only contains what the TRMNL importer accepts. You paste
+`serverless.js` separately.
 
-## Architecture
+## Setup
 
-TRMNL récupère l'URL de polling **avant** d'exécuter la fonction Serverless et
-lui passe le résultat en entrée. C'est ce mécanisme qui permet de dépasser la
-limite de 100 Ko imposée aux réponses externes : la fonction est là pour réduire
-un gros payload, pas pour aller le chercher elle-même. `run()` ne fait donc
-aucun appel réseau, et les 5 secondes allouées ne servent qu'au calcul.
+1. Plugins → Private Plugin → New, then import the zip.
+2. Edit Markup → Serverless tab → set the language to **Node** → paste
+   `serverless.js`.
+3. Pick your team and your language in the form.
+4. Force Refresh. Turn on Debug Logs while you set things up, it's the only
+   place Node errors show up.
 
-`resolveGames()` retrouve le tableau de matchs par sa forme, quel que soit le
-nom que TRMNL lui donne — `data` pour une racine tableau, `IDX_0` si plusieurs
-URLs de polling sont configurées.
+## Things that took me a while
 
-## Installation
+**The polling URL is fetched before the serverless function runs.** I first
+wrote the fetch inside `run()` and pointed the polling URL at a dummy endpoint,
+because the games list is way over the 100 KB limit for external responses. That
+was backwards. The serverless function exists exactly so you can handle a big
+payload: TRMNL fetches the URL, then hands you the result. So `run()` does no
+network call at all and the 5 second limit is never a problem.
 
-1. Plugins → Private Plugin → New, puis importe le ZIP.
-2. Edit Markup → onglet Serverless → langage **Node** → colle `serverless.js`.
-3. Choisis ton équipe et ta langue dans le formulaire.
-4. Force Refresh. Active Debug Logs le temps des réglages : c'est le seul
-   endroit où apparaissent les erreurs Node.
+**TRMNL's Node VM runs small-icu.** `Intl.DateTimeFormat("fr-CH")` silently
+falls back to English. I got `Sat, 09/19` on a French display and spent a while
+wondering why. Day and month names now come from my own tables, and `Intl` is
+only used to convert to the right timezone, which does work.
 
-## Les quatre langues
+**The standings sort.** I first sorted by points per game and my table didn't
+match the official one. NL sorts by points first, and only uses games played to
+break ties. I checked the comparator against the official table after round 3
+and all 14 positions match now. I don't do head-to-head, so two teams that are
+perfectly level can end up one rank apart from the official site.
 
-Tous les libellés sont dans `STRINGS` en tête de `serverless.js`, et les noms de
-club dans `TEAMS`. Les templates Liquid ne contiennent aucun texte en dur : il
-n'y a qu'un fichier à toucher pour corriger un mot.
+**The logo field isn't documented.** `logoFrom()` just looks for any key
+containing `logo` on the home/away side and takes the first URL it finds. Works
+for every team I tested. There's also a Logo URL field in the form if you want
+to override it, and if nothing is found the plugin shows the team code instead.
 
-Le champ Langue propose « Automatique », qui suit `trmnl.user.locale` et retombe
-sur le français si le compte est dans une langue non couverte. Le fuseau horaire
-vient aussi du compte (`trmnl.user.time_zone_iana`), donc un utilisateur à
-l'étranger voit l'heure de coup d'envoi chez lui, pas à Zurich.
+## Languages
 
-Ce qui change selon la langue :
+All the strings are in `STRINGS` at the top of `serverless.js`, and the club
+names in `TEAMS`. The Liquid files have no hardcoded text, so there's only one
+file to edit if a translation is wrong.
 
-- Les clubs qui ont une forme officielle par langue : SC Bern / CP Berne,
-  EHC Biel / HC Bienne, EV Zug / EV Zoug / EV Zugo, Fribourg / Freiburg /
-  Friburgo, Genève / Genf / Ginevra.
-- Les rangs : `2e`, `2.`, `2°`, `2nd`.
-- Les prolongations : `ap` / `n.V.` / `dts` / `OT`, et les tirs au but
-  `tab` / `n.P.` / `drig` / `SO`.
-- Le format de date, via des tables maison. **Le VM Node de TRMNL tourne en
-  small-icu** : `Intl` ne connaît que l'anglais et retombe dessus en silence
-  pour toute autre locale. On ne lui demande donc que la conversion de fuseau.
+The Language field has an Automatic option that follows `trmnl.user.locale` and
+falls back to French. The timezone comes from the account too
+(`trmnl.user.time_zone_iana`), so if you follow your club from abroad the puck
+drop time is shown where you are, not in Zurich.
 
-Dans les descriptions de champs, l'anglais est le repli (`description`) et les
-trois langues nationales sont des surcharges (`description-fr`, `-de`, `-it`).
+Club names follow the language: SC Bern / CP Berne, EHC Biel / HC Bienne,
+EV Zug / EV Zoug / EV Zugo, Fribourg / Freiburg / Friburgo. Same for ranks
+(`2e`, `2.`, `2°`, `2nd`) and overtime (`ap` / `n.V.` / `dts` / `OT`).
 
-## Le classement
+## Points
 
-Points : victoire 3, victoire en prolongation ou aux tirs au but 2, défaite en
-prolongation ou aux tirs au but 1, défaite 0.
+Win 3, overtime or shootout win 2, overtime or shootout loss 1, loss 0.
+Friendlies and foreign opponents are filtered out, and the season starts on
+July 1st.
 
-Tri : points d'abord, puis à égalité le nombre de matchs joués, puis la
-différence de buts, puis les buts marqués. Vérifié contre le classement officiel
-après la 3e journée 2026-27, les 14 rangs concordent. Les départages complets de
-la ligue incluent aussi les confrontations directes, que je n'ai pas
-implémentées : un écart d'un rang reste possible entre deux équipes à égalité
-parfaite.
+## TRMNL X
 
-Les matchs amicaux (`isExhibition`) et les adversaires étrangers sont exclus, et
-la saison démarre au 1er juillet.
+X is 1040×780, and portrait swaps that. The half views end up with very
+different proportions:
 
-## Le logo
-
-Le champ logo de l'API n'est pas documenté. `logoFrom()` cherche n'importe
-quelle clé du match contenant `logo` côté `home`/`away` et renvoie la première
-URL trouvée. Le champ **Logo (URL)** du formulaire permet de forcer la sienne,
-et sans rien le plugin affiche le code de l'équipe en gros.
-
-L'écran est en noir et blanc : un logo contrasté sur fond transparent ou blanc
-rend bien mieux qu'un logo en couleurs. La classe `image-dither` est déjà posée.
-
-## TRMNL X et portrait
-
-TRMNL X fait 1040×780, et le portrait inverse les deux. Les demi-vues changent
-donc beaucoup de proportions :
-
-| Vue | OG paysage | X paysage | X portrait |
+| View | OG landscape | X landscape | X portrait |
 | --- | --- | --- | --- |
 | half_horizontal | 760×210 | 992×354 | 732×484 |
 | half_vertical | 370×440 | 484×732 | 354×992 |
 
-`half_horizontal` gagne surtout de la hauteur en portrait et perd de la largeur.
-Le classement y apparaît en `lg:flex lg:portrait:hidden`, donc en X paysage
-seulement — en portrait, quatre colonnes tomberaient à 183px chacune. Le
-portrait utilise sa hauteur autrement, avec la grille gagnés/perdus/différence,
-le résultat en toutes lettres et la patinoire, tous en
-`hidden lg:portrait:visible`.
+In half_horizontal the standings column is `lg:flex lg:portrait:hidden`, so it
+only shows in X landscape. In portrait four columns would be 183px each, which
+is unreadable, so I use the extra height for a wins/losses/diff grid, the result
+spelled out, and the arena instead.
 
-`half_vertical` devient étroit et très haut. Le classement y apparaît en
-`hidden lg:visible`, avec les noms complets en X paysage et les codes d'équipe
-en portrait, où la colonne des matchs joués est masquée.
+In half_vertical the standings show on X in both orientations, with full club
+names in landscape and team codes in portrait, where the games played column is
+dropped.
 
-## Publication
+## Notes
 
-Le champ `author_bio` sert de page publique du recipe. Il porte la catégorie
-`sports` et le lien GitHub comme moyen de contact — TRMNL en exige au moins un.
+Every install hits nationalleague.ch once an hour for the full games list. If
+this plugin gets popular I should put a small cache in front (Cloudflare Worker
+or similar) — the polling URL would become something like
+`https://my-worker.dev/?team={{ team }}` and the serverless function would have
+almost nothing left to do.
 
-Chaque installation ira chercher toute la liste des matchs une fois par heure.
-Si le plugin prend, un petit cache intermédiaire (Cloudflare Worker, Val Town)
-serait plus correct vis-à-vis de nationalleague.ch : l'URL de polling
-deviendrait `https://ton-worker.dev/?team={{ team }}` et la fonction Serverless
-n'aurait presque plus rien à faire.
+Not affiliated with the National League or Swiss Ice Hockey.
 
-## Développement local
-
-`trmnlp` permet de prévisualiser sans pousser à chaque fois. Il exécute
-`transform.js` avec son propre Node, comme le runtime hébergé — renomme
-`serverless.js` en `transform.js` dans ce cas.
+If something is broken or a translation is off, open an issue.
