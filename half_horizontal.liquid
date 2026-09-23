@@ -1,0 +1,106 @@
+{% comment %}
+  Base : version precedente, inchangee par Mario.
+  OG paysage 760x210 : 3 colonnes compactes.
+  X paysage  992x354 : 4e colonne avec le classement.
+  X portrait 732x484 : trop etroit pour 4 colonnes (183px chacune), on garde
+                       les 3 et on exploite la hauteur avec des details en plus.
+{% endcomment %}
+
+<div class="layout">
+  <div class="columns">
+
+    <div class="column">
+      <div class="flex flex--col gap--small">
+        <div class="flex flex--row flex--middle gap--medium">
+          {% if logo %}
+            <img class="image-dither w--max-[56px] h--max-[56px] lg:w--max-[80px] lg:h--max-[80px]"
+                 src="{{ logo }}" alt="{{ team_name }}" />
+          {% else %}
+            <span class="value value--large">{{ code }}</span>
+          {% endif %}
+          <div class="flex flex--col">
+            <span class="title title--small lg:title--base" data-clamp="1">{{ team_name }}</span>
+            <span class="value value--small lg:value--base value--tnums">{{ rank_label }} &middot; {{ points }} {{ t.pts_col }}</span>
+            <span class="label label--small lg:label--large">{{ games_played }} {{ t.matches }} &middot; {{ diff_label }}</span>
+          </div>
+        </div>
+
+        <div class="hidden lg:portrait:grid grid--cols-3">
+          <div class="item">
+            <div class="content">
+              <span class="value value--small value--tnums">{{ wins }}</span>
+              <span class="label label--small pb--1">{{ t.wins }}</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <span class="value value--small value--tnums">{{ losses }}</span>
+              <span class="label label--small pb--1">{{ t.losses }}</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <span class="value value--small value--tnums">{{ diff_label }}</span>
+              <span class="label label--small pb--1">{{ t.diff }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="item">
+        <div class="meta"></div>
+        <div class="content">
+          <span class="label label--small lg:label--large">{{ t.last_match }}</span>
+          {% if last %}
+            <span class="value value--small lg:value--large value--tnums">{{ last.score }}{% if last.suffix != '' %} {{ last.suffix }}{% endif %}</span>
+            <span class="description lg:description--large" data-clamp="1" data-clamp-lg="2">{{ last.versus_short }} &middot; {{ last.date }}</span>
+            <span class="hidden lg:portrait:visible description">{{ last.result_label }}</span>
+          {% else %}
+            <span class="value value--small">{{ t.no_last }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="item">
+        <div class="meta"></div>
+        <div class="content">
+          <span class="label label--small lg:label--large">{{ t.next_match }}</span>
+          {% if next %}
+            <span class="value value--small lg:value--base" data-clamp="1" data-clamp-lg="2">{{ next.versus_short }}</span>
+            <span class="description lg:description--large" data-clamp="1">{{ next.date }} {{ t.at }} {{ next.time }}</span>
+            {% if next.arena != '' %}
+              <span class="hidden lg:portrait:visible description" data-clamp="2">{{ next.arena }}</span>
+            {% endif %}
+          {% else %}
+            <span class="value value--small">{{ t.no_next }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="column hidden lg:flex lg:portrait:hidden">
+      <span class="label label--small lg:label--large">{{ t.standings }}</span>
+      <table class="table table--xsmall" data-table-limit="true" data-table-max-height="auto">
+        <tbody>
+          {% for row in standings %}
+          <tr>
+            <td class="value--tnums">{{ row.rank }}</td>
+            <td data-clamp="1">{% if row.me %}<strong>{{ row.name }}</strong>{% else %}{{ row.name }}{% endif %}</td>
+            <td class="value--tnums text--right">{{ row.pts }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+<div class="title_bar">
+  <span class="title">{{ t.league }}</span>
+  <span class="instance">{{ team_name }}</span>
+</div>

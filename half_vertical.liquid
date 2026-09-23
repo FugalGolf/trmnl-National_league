@@ -1,0 +1,93 @@
+{% comment %}
+  Base : version de Mario (logo 126px, pb--1 sur les labels).
+  X paysage  484x732 : classement avec noms complets.
+  X portrait 354x992 : plus haut mais plus etroit, on passe aux codes
+                       d'equipe et on masque la colonne des matchs joues.
+{% endcomment %}
+
+<div class="layout layout--col gap--small">
+
+  <div class="flex flex--col flex--center gap--small">
+    {% if logo %}
+      <img class="image-dither w--max-[126px] h--max-[126px] lg:w--max-[150px] lg:h--max-[150px]"
+           src="{{ logo }}" alt="{{ team_name }}" />
+    {% else %}
+      <span class="value value--xlarge">{{ code }}</span>
+    {% endif %}
+    <span class="title title--small lg:title--base" data-clamp="1">{{ team_name }}</span>
+  </div>
+
+  <div class="grid grid--cols-2">
+    <div class="item">
+      <div class="content">
+        <span class="value value--small lg:value--base value--tnums">{{ rank_label }}</span>
+        <span class="label label--small pb--1">{{ t.rank }}</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="content">
+        <span class="value value--small lg:value--base value--tnums">{{ points }}</span>
+        <span class="label label--small pb--1">{{ t.points }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="meta"></div>
+    <div class="content">
+      <span class="label label--small lg:label--large">{{ t.last_match }}</span>
+      {% if last %}
+        <span class="value value--large lg:value--xlarge value--tnums">{{ last.score }}{% if last.suffix != '' %} {{ last.suffix }}{% endif %}</span>
+        <span class="description lg:description--large" data-clamp="2">{{ last.versus_short }} &middot; {{ last.date }}</span>
+      {% else %}
+        <span class="value value--small">{{ t.no_last }}</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="meta"></div>
+    <div class="content">
+      <span class="label label--small lg:label--large">{{ t.next_match }}</span>
+      {% if next %}
+        <span class="value value--small lg:value--base" data-clamp="2">{{ next.versus_short }}</span>
+        <span class="description lg:description--large">{{ next.date }} {{ t.at }} {{ next.time }}</span>
+      {% else %}
+        <span class="value value--small">{{ t.no_next }}</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="hidden lg:visible">
+    <span class="label label--small lg:label--large">{{ t.standings }}</span>
+    <table class="table table--xsmall" data-table-limit="true" data-table-max-height="auto">
+      <thead>
+        <tr>
+          <th class="lg:text--large">#</th>
+          <th class="lg:text--large">{{ t.team_col }}</th>
+          <th class="lg:text--large text--right lg:portrait:hidden">{{ t.gp_col }}</th>
+          <th class="lg:text--large text--right">{{ t.pts_col }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in standings %}
+        <tr>
+          <td class="lg:text--large value--tnums">{{ row.rank }}</td>
+          <td class="lg:text--large">
+            <span class="lg:portrait:hidden">{% if row.me %}<strong>{{ row.name }}</strong>{% else %}{{ row.name }}{% endif %}</span>
+            <span class="hidden lg:portrait:inline">{% if row.me %}<strong>{{ row.code }}</strong>{% else %}{{ row.code }}{% endif %}</span>
+          </td>
+          <td class="lg:text--large value--tnums text--right lg:portrait:hidden">{{ row.gp }}</td>
+          <td class="lg:text--large value--tnums text--right">{{ row.pts }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<div class="title_bar">
+  <span class="title">{{ t.league }}</span>
+  <span class="instance">{{ team_name }}</span>
+</div>

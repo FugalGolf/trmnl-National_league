@@ -1,0 +1,26 @@
+<div class="layout layout--col gap--small">
+
+  <div class="flex flex--row flex--middle gap--small">
+    {% if logo %}
+      <img class="image-dither w--max-[36px] h--max-[36px]"
+           src="{{ logo }}" alt="{{ team_name }}" />
+    {% else %}
+      <span class="value value--small">{{ code }}</span>
+    {% endif %}
+    <span class="value value--small lg:value--large value--tnums">{{ rank_label }} &middot; {{ points }} {{ t.pts_col }}</span>
+  </div>
+
+  {% if last %}
+    <span class="label label--small lg:label--large" data-clamp="1" data-clamp-lg="2">{{ t.last_match }} &middot; {{ last.versus_short }}</span>
+    <span class="value value--large lg:value--xxlarge value--tnums">{{ last.score }}{% if last.suffix != '' %} {{ last.suffix }}{% endif %}</span>
+  {% endif %}
+
+  {% if next %}
+    <span class="description lg:description--xlarge" data-clamp="2">{{ t.next_match }} : {{ next.versus_short }} &middot; {{ next.date }} {{ next.time }}</span>
+  {% endif %}
+
+</div>
+
+<div class="title_bar">
+  <span class="title">{{ team_name }}</span>
+</div>

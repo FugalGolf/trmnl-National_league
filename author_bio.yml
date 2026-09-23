@@ -1,0 +1,60 @@
+- keyname: about
+  name: About this plugin
+  field_type: author_bio
+  category: sports
+  github_url: https://github.com/FugalGolf/trmnl-National_league
+  learn_more_url: https://www.nationalleague.ch
+  description: >
+    Follow your Swiss National League club on TRMNL: league position, the score
+    of the last game, and when and where the next one is played.<br><br>
+    Pick your team from the 14 NL clubs, and the plugin does the rest. The full
+    standings appear alongside on the full-screen layout, with your club
+    highlighted. Kick-off times follow your TRMNL time zone, so the plugin still
+    makes sense if you follow your club from abroad.<br><br>
+    Available in the three national languages and English, or set to Automatic
+    to follow your account language. Club names adapt too: SC Bern or CP Berne,
+    EHC Biel or HC Bienne, EV Zug or EV Zoug.<br><br>
+    Points follow the NL three-point rule: 3 for a win in regulation, 2 for an
+    overtime or shootout win, 1 for an overtime or shootout loss. Teams level on
+    points are separated by games played, then goal difference. Updated hourly
+    from nationalleague.ch. Not affiliated with the National League or the
+    Swiss Ice Hockey Federation.
+  description-fr: >
+    Suivez votre club de National League sur TRMNL : la place au classement, le
+    score du dernier match, et la date, l'heure et l'adversaire du prochain.<br><br>
+    Choisissez votre équipe parmi les 14 clubs de NL, le plugin fait le reste.
+    Le classement complet s'affiche à côté en pleine largeur, votre club mis en
+    évidence. Les heures de coup d'envoi suivent le fuseau de votre compte.<br><br>
+    Disponible en français, allemand, italien et anglais, ou en mode Automatique
+    pour suivre la langue de votre compte. Les noms de club s'adaptent aussi.<br><br>
+    Points selon la règle NL : 3 pour une victoire, 2 en prolongation ou aux
+    tirs au but, 1 pour une défaite en prolongation ou aux tirs au but. À
+    égalité de points, départage au nombre de matchs joués puis à la différence
+    de buts. Mise à jour toutes les heures depuis nationalleague.ch. Sans lien
+    avec la National League ni la Fédération suisse de hockey sur glace.
+  description-de: >
+    Verfolgen Sie Ihren National-League-Club auf TRMNL: Tabellenplatz, Resultat
+    des letzten Spiels sowie Datum, Zeit und Gegner des nächsten.<br><br>
+    Wählen Sie Ihr Team aus den 14 NL-Clubs, den Rest übernimmt das Plugin. In
+    der Vollansicht steht die komplette Tabelle daneben, Ihr Club hervorgehoben.
+    Die Anspielzeiten richten sich nach der Zeitzone Ihres Kontos.<br><br>
+    Verfügbar auf Deutsch, Französisch, Italienisch und Englisch, oder auf
+    Automatisch für die Sprache Ihres Kontos. Auch die Clubnamen passen sich an.<br><br>
+    Punkte nach der NL-Regel: 3 für einen Sieg, 2 nach Verlängerung oder
+    Penaltyschiessen, 1 für eine Niederlage nach Verlängerung oder
+    Penaltyschiessen. Bei Punktgleichheit entscheiden die Anzahl Spiele und
+    danach die Tordifferenz. Stündlich aktualisiert über nationalleague.ch.
+    Nicht mit der National League oder Swiss Ice Hockey verbunden.
+  description-it: >
+    Seguite il vostro club di National League su TRMNL: posizione in classifica,
+    risultato dell'ultima partita, data, ora e avversario della prossima.<br><br>
+    Scegliete la vostra squadra fra i 14 club di NL, al resto pensa il plugin.
+    A schermo intero la classifica completa appare a fianco, con il vostro club
+    in evidenza. Gli orari seguono il fuso orario del vostro account.<br><br>
+    Disponibile in italiano, francese, tedesco e inglese, oppure in modalità
+    Automatico per seguire la lingua del vostro account. Anche i nomi dei club
+    si adattano.<br><br>
+    Punti secondo la regola NL: 3 per una vittoria, 2 ai supplementari o ai
+    rigori, 1 per una sconfitta ai supplementari o ai rigori. A parità di punti
+    contano le partite giocate e poi la differenza reti. Aggiornato ogni ora da
+    nationalleague.ch. Non affiliato alla National League né a Swiss Ice Hockey.

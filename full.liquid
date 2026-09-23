@@ -1,0 +1,111 @@
+{% assign show_table = trmnl.plugin_settings.custom_fields_values.show_standings | default: 'yes' %}
+
+<div class="layout">
+  <div class="columns">
+
+    <div class="column">
+      <div class="flex flex--col gap--small">
+
+        <div class="flex flex--row flex--middle gap--medium">
+          {% if logo %}
+            <img class="image-dither w--max-[72px] h--max-[72px]"
+                 src="{{ logo }}" alt="{{ team_name }}" />
+          {% else %}
+            <span class="value value--xlarge lg:value--xxlarge">{{ code }}</span>
+          {% endif %}
+          <div class="flex flex--col">
+            <span class="title title--small lg:title--base">{{ team_name }}</span>
+            <span class="label">{{ rank_label }} {{ t.of }} {{ teams_count }} &middot; {{ points }} {{ t.pts_col }}</span>
+          </div>
+        </div>
+
+        <div class="grid grid--cols-4">
+          <div class="item">
+            <div class="content">
+              <span class="value value--small lg:value--base value--tnums">{{ games_played }}</span>
+              <span class="label label--small lg:label--base">{{ t.matches }}</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <span class="value value--small lg:value--base value--tnums">{{ wins }}</span>
+              <span class="label label--small lg:label--base">{{ t.wins }}</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <span class="value value--small lg:value--base value--tnums">{{ losses }}</span>
+              <span class="label label--small lg:label--base">{{ t.losses }}</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <span class="value value--small lg:value--base value--tnums">{{ diff_label }}</span>
+              <span class="label label--small lg:label--base">{{ t.diff }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="meta"></div>
+          <div class="content">
+            <span class="label label--small lg:label--base">{{ t.last_match }}</span>
+            {% if last %}
+              <span class="value value--large lg:value--xlarge value--tnums">{{ last.score }}{% if last.suffix != '' %} {{ last.suffix }}{% endif %}</span>
+              <span class="description">{{ last.versus_long }} &middot; {{ last.date }} &middot; {{ last.result_label }}</span>
+            {% else %}
+              <span class="value value--small">{{ t.no_last }}</span>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="meta"></div>
+          <div class="content">
+            <span class="label label--small lg:label--base">{{ t.next_match }}</span>
+            {% if next %}
+              <span class="value value--small lg:value--base">{{ next.versus_long }}</span>
+              <span class="description">{{ next.date }} {{ t.at }} {{ next.time }}{% if next.arena != '' %} &middot; {{ next.arena }}{% endif %}</span>
+            {% else %}
+              <span class="value value--small">{{ t.no_next }}</span>
+            {% endif %}
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    {% if show_table == 'yes' %}
+    <div class="column">
+      <span class="label label--small lg:label--base">{{ t.standings }}</span>
+      <table class="table table--xsmall lg:table--base"
+             data-table-limit="true">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>{{ t.team_col }}</th>
+            <th class="text--right">{{ t.gp_col }}</th>
+            <th class="text--right">{{ t.pts_col }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in standings %}
+          <tr>
+            <td class="lg:text--xlarge value--tnums">{{ row.rank }}</td>
+            <td class="lg:text--xlarge">{% if row.me %}<strong>{{ row.name }}</strong>{% else %}{{ row.name }}{% endif %}</td>
+            <td class="lg:text--xlarge value--tnums text--right">{{ row.gp }}</td>
+            <td class="lg:text--xlarge value--tnums text--right">{{ row.pts }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+
+  </div>
+</div>
+
+<div class="title_bar">
+  <span class="title">{{ t.league }}</span>
+  <span class="instance">{{ team_name }} &middot; {{ updated_at }}</span>
+</div>
